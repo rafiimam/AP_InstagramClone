@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AP_InstragramClone</string>
+    <string name="please_enter_the_name">Please Enter the Name</string>
+    <string name="please_enter_the_punch_speed">Please Enter the Punch Speed</string>
+    <string name="please_enter_the_punch_power">Please Enter the Punch Power</string>
+    <string name="please_enter_the_kick_speed">Please Enter the Kick Speed</string>
+    <string name="please_enter_the_kick_power">Please Enter the Kick Power</string>
+    <string name="save">Save</string>
+</resources>
