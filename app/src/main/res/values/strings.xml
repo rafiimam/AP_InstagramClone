@@ -6,4 +6,6 @@
     <string name="please_enter_the_kick_speed">Please Enter the Kick Speed</string>
     <string name="please_enter_the_kick_power">Please Enter the Kick Power</string>
     <string name="save">Save</string>
+    <string name="get_data_from_the_server">Get Data from the Server</string>
+    <string name="get_all_data">Get All Data</string>
 </resources>
