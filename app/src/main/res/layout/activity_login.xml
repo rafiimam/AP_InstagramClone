@@ -4,87 +4,70 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:onClick="rootLayout"
-    tools:context=".SignUp">
+    android:onClick="rootLayoutt"
+    tools:context=".LoginActivity">
 
     <ImageView
-        android:id="@+id/imgLogo"
-        android:layout_width="160dp"
-        android:layout_height="181dp"
+        android:id="@+id/imageView"
+        android:layout_width="159dp"
+        android:layout_height="163dp"
         android:layout_marginStart="137dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="76dp"
         android:layout_marginEnd="274dp"
-        android:contentDescription="@string/todo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintHorizontal_bias="0.069"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/iconfinder_instagram_logo_color_1620007" />
 
     <EditText
-        android:id="@+id/edtUserNameSignup"
+        android:id="@+id/edtEmailLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="112dp"
+        android:layout_marginTop="76dp"
         android:ems="10"
-        android:hint="Enter Username"
-        android:inputType="textPersonName"
+        android:hint="Enter E-mail Address"
+        android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgLogo" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
-        android:id="@+id/edtPasswordSigup"
+        android:id="@+id/edtPasswrodLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="Enter Password"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtUserNameSignup" />
+        app:layout_constraintTop_toBottomOf="@+id/edtEmailLogin" />
 
     <Button
-        android:id="@+id/btnSignup"
+        android:id="@+id/btnLogin2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:background="@android:color/holo_orange_dark"
-        android:shadowColor="#BC2222"
-        android:text="Sign Up"
-        android:textColor="#0B0A0A"
+        android:background="@android:color/holo_green_light"
+        android:hapticFeedbackEnabled="false"
+        android:text="Login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtPasswordSigup" />
+        app:layout_constraintTop_toBottomOf="@+id/edtPasswrodLogin" />
 
     <Button
-        android:id="@+id/btnLogin"
+        android:id="@+id/btnSignup2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
-        android:background="@android:color/holo_green_light"
-        android:text="Login"
-        android:textColor="#131313"
+        android:background="@android:color/holo_orange_dark"
+        android:text="Sign Up"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnSignup" />
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin2" />
 
-    <EditText
-        android:id="@+id/edtEmail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Enter E-mail Address"
-        android:inputType="textEmailAddress"
-        app:layout_constraintBottom_toTopOf="@+id/edtUserNameSignup"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgLogo"
-        app:layout_constraintVertical_bias="1.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

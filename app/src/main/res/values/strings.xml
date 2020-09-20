@@ -9,4 +9,5 @@
     <string name="get_data_from_the_server">Get Data from the Server</string>
     <string name="get_all_data">Get All Data</string>
     <string name="switch_to_another_activity">Switch to another activity</string>
+    <string name="todo">TODO</string>
 </resources>
