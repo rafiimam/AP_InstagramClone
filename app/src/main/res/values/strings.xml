@@ -10,4 +10,6 @@
     <string name="get_all_data">Get All Data</string>
     <string name="switch_to_another_activity">Switch to another activity</string>
     <string name="todo">TODO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
